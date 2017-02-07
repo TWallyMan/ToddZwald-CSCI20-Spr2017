@@ -10,18 +10,18 @@ amount of money earned.
 #include <iostream>
 using namespace std;
 
-int quarterValue = 25;   //Quarter value as a whole number
-int totalQuarters;
-int dimeValue = 10;      //Quarter value as a whole number
-int totalDimes;
-int nickelValue = 5;     //Quarter value as a whole number
-int totalNickels;
-int pennieValue = 1;     //Quarter value as a whole number
-int totalPennies;
-double feeValue = .109;  //Quarter value as a whole number
-int startMoney;
-int moneyCounted;
-int moneyRemoved;
+int quarterValue = 25;   // Quarter value as a whole number
+int totalQuarters;       // Holds total quarters
+int dimeValue = 10;      // Dime value as a whole number
+int totalDimes;          // Holds total dimes
+int nickelValue = 5;     // Nickel value as a whole number
+int totalNickels;        // Holds total nickels
+int pennieValue = 1;     // Pennie value as a whole number
+int totalPennies;        // Holds total pennies
+double feeValue = .109;  // Fee value coinstar uses to take money
+int startMoney;          // Holds user input of money
+int moneyCounted;        // Holds money counted in machine
+int moneyRemoved;        // Holds how much money has been limited out by coins
 
 int main() {
     
@@ -56,7 +56,7 @@ int main() {
     cout << totalPennies << " pennie/s" << endl;
     
    
-   //Remove fee from total amount of money entered
+   //Remove fee from total amount of money entered and converts to dollar value
     cout << "Total money earned after fee: $" ;
     moneyRemoved = startMoney - (startMoney * feeValue);
     cout << static_cast<double>(moneyRemoved) / 100;
