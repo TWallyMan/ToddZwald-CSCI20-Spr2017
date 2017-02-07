@@ -57,8 +57,8 @@ int main() {
     
    
    //Remove fee from total amount of money entered
-    cout << "Total money earned after fee: " ;
+    cout << "Total money earned after fee: $" ;
     moneyRemoved = startMoney - (startMoney * feeValue);
-    cout << moneyRemoved;
+    cout << static_cast<double>(moneyRemoved) / 100;
     
 }
