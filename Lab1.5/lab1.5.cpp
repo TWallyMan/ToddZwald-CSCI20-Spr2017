@@ -67,22 +67,22 @@ int main() {
     //Codes used to output answers for madlib to form the full paragraph
     
     cout << personName << " went down to " << placeName << " to buy some "
-    << fruitName << "." << endl;
+    << fruitName << "s." << endl;
     
     cout << "When he got there, he saw that there were only " << smallNumber
     << " left." << endl;
     
     cout << personName << " walked up to a salesman and asked if they had anymore "
-    << fruitName << " in the back." << endl;
+    << fruitName << "s in the back." << endl;
     
-    cout << "The salesman unfortunately only gave 0 fucks, so he tried to sell" 
-    << personName << " " << bigNumber << " " << bigObject << endl;
+    cout << "The salesman unfortunately only gave 0 fucks, so he tried to sell " 
+    << personName << " " << bigNumber << " " << bigObject << "s." << endl;
     
     cout << personName << " was not happy so he told the salesman to go fuck himself with "
-    << bigNumber << " " << smallObject << "." << endl;
+    << bigNumber << " " << smallObject << "s." << endl;
     
     cout << "Unfortunately for " << personName << ", this meant that he was never going to get the "
-    << fruitName << " that he wanted.";
+    << fruitName << "s that he wanted.";
     
     
     
