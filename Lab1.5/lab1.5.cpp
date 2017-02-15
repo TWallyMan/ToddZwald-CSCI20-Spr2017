@@ -84,6 +84,6 @@ int main() {
     cout << "Unfortunately for " << personName << ", this meant that he was never going to get the "
     << fruitName << "s that he wanted.";
     
-    
+    return 0;
     
 }
