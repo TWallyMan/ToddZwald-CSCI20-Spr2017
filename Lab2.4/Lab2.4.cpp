@@ -22,9 +22,9 @@ double kilogramsToPounds(double totPounds);
 
 int main(){
     
-    int userNum1;
-    int userNum2;
-    double userRandomNum;
+    int userNum1;           // Starting point for user input
+    int userNum2;           // Second point for user input
+    double userRandomNum;   //Holds random 
     double totPounds;
     double totKilograms;
     
