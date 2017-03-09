@@ -9,10 +9,10 @@ class TemperatureConverter{
     
     public:
         
-        void TemperatureConverter(){   // Defaultconstructor
+        TemperatureConverter(){   // Defaultconstructor
             kelvin_ = 0;
         }
-        double TemperatureConverter(double tempKelvin){ //Overloaded Constructor
+        TemperatureConverter(double tempKelvin){ //Overloaded Constructor
             kelvin_ = tempKelvin;
         }
         
@@ -21,8 +21,9 @@ class TemperatureConverter{
             return;
         }
         double GetTempAsCelsius(){
-           tempCelsius = kelvin_ – 273.15;
-           return tempCelsius;
+            double tempCelsius;
+            tempCelsius = kelvin_ - 273.15;
+            return tempCelsius;
         }
         
         void SetTempFromFahrenheit(double tempFahrenheit){
@@ -30,24 +31,26 @@ class TemperatureConverter{
             return;
         }
         double GetTempAsFahrenheit(){
-            tempFahrenheit = ((( kelvin_ – 273.15) * 9) / 5 + 32);
-            return ;
+            double tempFahrenheit;
+            tempFahrenheit = (((kelvin_ - 273.15) * 9) / 5 + 32);
+            return tempFahrenheit;
         }  
         
         void SetTempFromKelvin(double kelvinTempSet){
-            
+            kelvin_ = kelvinTempSet;
+            return;
         }
         double GetTempFromKelvin(){
-            
+            return kelvin_;
         }
         
         void PrintTemperatures(){
-            cout << GetTempFromKelvin()    << "K" << endl;
-            cout << GetTempAsCelsius()     << "C" << endl;
-            cout << GetTempAsFahrenheit()  << "F" << endl;
+            cout << GetTempFromKelvin() << "K" << endl;
+            cout << GetTempAsCelsius() << "C" << endl;
+            cout << GetTempAsFahrenheit() << "F" << endl;
         }
     
-}
+};
 
 
 
@@ -58,7 +61,7 @@ class TemperatureConverter{
  */
  
 #include<iostream>
-#include "lab9.cpp"
+//#include "lab9.cpp"
 using namespace std;
 
 int main ()
