@@ -73,7 +73,7 @@ int main(){
     distance1.DistancePrintFeet();
     
     distance2.SetMiles(1);
-    cout << "1 mild is:" << endl;
+    cout << "1 mile is:" << endl;
     distance2.DistancePrintInches();
     
     distance3.SetMiles(1);
