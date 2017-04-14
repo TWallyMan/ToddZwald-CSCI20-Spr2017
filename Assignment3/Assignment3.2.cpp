@@ -74,6 +74,22 @@ int main(){
         cout << endl;
     
     }
+    else if(playerChoice == 's' || playerChoice == 'S'){
+        cout << "Ok, your total points are " << user.GetScore() << endl;
+        dieNumber = dieWhenRolled();
+        for(int timesRolledDice = 0; timesRolledDice < 3; timesRolledDice++){
+            if(dieNumber != 1){
+                cout << "I rolled a " << dieNumber << endl;
+                aI.SetScore(dieNumber);
+                cout << "My current points are " << aI.GetScore() << endl;
+                dieNumber = dieWhenRolled();
+            }
+            else{
+                cout << "I rolled a 1 so I earn no points and is now your turn" << endl;
+                timesRolledDice = 3;
+            }
+        }
+    }
     else{
         cout << "Sorry, you rolled a 1 so you earned no points and it's now my turn." << endl;
         for(int timesRolledDice = 0; timesRolledDice < 3; timesRolledDice++){
@@ -113,11 +129,41 @@ int main(){
             cout << "Your total points so far are: " << user.GetScore() << endl;
             dieNumber = dieWhenRolled();
         }
-        //else if()
+        else if(playerChoice == 's' || playerChoice == 'S'){
+            cout << "Ok, your total points are " << user.GetScore() << endl;
+            dieNumber = dieWhenRolled();
+            for(int timesRolledDice = 0; timesRolledDice < 3; timesRolledDice++){
+                if(dieNumber != 1){
+                    cout << "I rolled a " << dieNumber << endl;
+                    aI.SetScore(dieNumber);
+                    cout << "My current points are " << aI.GetScore() << endl;
+                    dieNumber = dieWhenRolled();
+                }
+                else{
+                    cout << "I rolled a 1 so I earn no points and is now your turn" << endl;
+                    timesRolledDice = 3;
+                }
+            }
+        }
         else{
             
             cout << "Sorry, you earned no points and it's now my turn." << endl;
             playerPoints = userInitialPoints + 0;
+            
+            dieNumber = dieWhenRolled();
+            for(int timesRolledDice = 0; timesRolledDice < 3; timesRolledDice++){
+                if(dieNumber != 1){
+                    cout << "I rolled a " << dieNumber << endl;
+                    aI.SetScore(dieNumber);
+                    cout << "My current points are " << aI.GetScore() << endl;
+                    dieNumber = dieWhenRolled();
+                }
+                else{
+                    cout << "I rolled a 1 so I earn no points and is now your turn" << endl;
+                    timesRolledDice = 3;
+                }
+            }
+            
         }
         
         cout << "What would you like to do next?" << endl;
@@ -125,5 +171,12 @@ int main(){
         cin >> playerChoice;
         cout << endl;
     }
+    if(user.GetScore() >= 100){
+        cout << "You win!!!!!" << endl;
+    }
+    else{
+        cout << "You lose, try again next time" << endl;
+    }
     
+    return 0;
 }
