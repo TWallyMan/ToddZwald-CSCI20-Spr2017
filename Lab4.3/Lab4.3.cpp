@@ -21,7 +21,9 @@ class Inventory{
         }
         void PrintStockQuantity()
 }
-
 int main(){
-    
+ 
+
+ 
+ cout <<quantity_[]; << endl;   
 }
