@@ -26,28 +26,23 @@ int main(){
     getline(cin, firstName);
     
     //makes sure the first name is not longer than 10 letters long
-    if(firstName.length() > 10){
+    while(firstName.length() > 10){
         cout << "That name is too long, please enter a name less than 10 characters" << endl;
         getline(cin, firstName);
         cout << endl;
         
     }
-    // asks for the last name
-    else{
-        cout << "Now enter in your last name:" << endl;
+    cout << "Now enter in your last name:" << endl;
+    getline(cin, lastName);
+    cout << endl;
+    // makes sure the last name is not longet than 20 letters
+    while(lastName.length() > 20){
+        cout << "That name is too long, please enter a name less than 20 characters" << endl;
         getline(cin, lastName);
-        cout << endl;
-        
-        // makes sure the last name is not longet than 20 letters
-        if(lastName.length() > 20){
-            cout << "That name is too long, please enter a name less than 20 characters" << endl;
-            getline(cin, lastName);
-        }
-        
-        // compares first name and last name and outputs a statement if same
-        if(firstName == lastName){
+    }
+    // compares first name and last name and outputs a statement if same
+    if(firstName == lastName){
         cout << "First name and last name are the same" << endl;
-        }
     }
     
     cout << "The full name you have entered is " << firstName << " " << lastName << endl << endl;
