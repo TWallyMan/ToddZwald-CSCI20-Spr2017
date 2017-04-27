@@ -1,0 +1,26 @@
+Suzy Cue
+24 3.5
+3
+A 3
+A 3
+A 3
+B 3
+
+
+Joe Joseph
+0 0.0
+1
+D 4
+C 3
+B 3
+C 3
+
+
+Jillian Smith
+60 2.5
+5
+C 4
+C 3
+C 4
+B 3
+C 3
