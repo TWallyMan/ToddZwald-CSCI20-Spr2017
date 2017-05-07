@@ -3,7 +3,7 @@ using namespace std;
 
 class Inventory{
     private:
-        int quantity_[0];
+        int quantity_[99];
     public:
         Inventory(){
             quantity_ = 0;

@@ -1,3 +1,11 @@
+// Todd Zwald
+// 5/7/17
+/*
+    This program has multiple arrays for product, price and quantity. The user
+    is able to choose how much of each product they want and it will then add
+    the total price of what was ordered.
+*/
+
 #include <iostream>
 #include <string>
 #include <ios>
@@ -6,11 +14,10 @@ using namespace std;
 
 int main(){
     const int ARRAY_SIZE = 11;
-    int Usernumber[ARRAY_SIZE];
-    string menu[ARRAY_SIZE];
-    int storage[ARRAY_SIZE];
-    double cost[ARRAY_SIZE];
-    int ordered[ARRAY_SIZE];
+    string menu[ARRAY_SIZE]; // Menu list
+    int storage[ARRAY_SIZE]; // How mmuch of each item in the menu array
+    double cost[ARRAY_SIZE]; // The cost cost of each item
+    int ordered[ARRAY_SIZE]; // how muh of each item the user ordered
     int i = 0;
     double orderTotal = 0;
     
@@ -85,9 +92,9 @@ int main(){
     }
     for(int i = 0; i < ARRAY_SIZE; i++){
         double addingOrder = ordered[i] * cost[i];
-        orderTotal = addingOrder;
+        orderTotal = orderTotal + addingOrder;
     }
-    cout << "Your total bill will be: " << orderTotal;
+    cout << "Your total bill will be: $" << orderTotal;
     
     return 0;
     
