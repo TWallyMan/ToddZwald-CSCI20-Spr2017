@@ -69,11 +69,12 @@ int main(){
     ordered[9] = 0;
     ordered[10] = 0;
     
-    
+    // Loop to output menu array
      for(int i = 0; i < ARRAY_SIZE; i++){
         cout << "#" << i + 1 << " " << menu[i] << "  $" << cost[i] << endl;
     }
     cout << "How many of each product would you like?" << endl << endl;
+    // Loop for input of what the user wants of each item
     for(int i = 0; i < ARRAY_SIZE; i++){
         int qauntityWant;
         cout << "#" << i + 1 << ": ";
@@ -87,9 +88,11 @@ int main(){
         }
     }
     cout << "Ok, your total items ordered will be: " << endl << endl;
+    // Loop to output items on menu and how much of each was ordered
     for(int i = 0; i < ARRAY_SIZE; i++){
         cout << menu[i] << ":  " << ordered[i] << endl;
     }
+    // Loop to output final price of cart
     for(int i = 0; i < ARRAY_SIZE; i++){
         double addingOrder = ordered[i] * cost[i];
         orderTotal = orderTotal + addingOrder;

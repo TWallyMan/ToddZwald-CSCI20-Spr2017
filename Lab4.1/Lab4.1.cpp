@@ -17,7 +17,7 @@ class ArrayTools{
     public:
         // Default constructor
         ArrayTools(int myArray[], int size = 99){
-            size_=size;
+            size_= size;
             for(int i = 0; i < size_; i++){
                 array_[i] = myArray[i];
             }
