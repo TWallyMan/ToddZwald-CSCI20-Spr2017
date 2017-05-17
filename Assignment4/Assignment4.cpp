@@ -1,19 +1,29 @@
+// Todd Zwald
+// 5/16/17
+/*
+    This program takes in a students test answers from the studentanswers.txt
+    file, compares them to the testanswers.txt file and then ouputs them to the
+    grade.txt file. It also shows how many problems they got wrong and outputs
+    their final score
+*/
+
 #include <iostream>
 #include <string>
 #include <fstream>
 using namespace std;
-
+//Class for test comparison to student answer
 class TestGrade{
     private:
         double score_;
         int mistake_;
     
     public:
+        // takes in student answers and gives points to correct and wrong answers
         void StudentTestComparison(string answerKey[], int correctIncorrect[], string studentAnswer[],  int i, int j, int k, double score){
-            
+            // iterates through each answer
             for(i = 0; i < 21; i++){
                 j = i + 2;
-                
+                // alots points to each answer
                 if(answerKey[i] == studentAnswer[j]){
                     score = score + 1;
                 }
@@ -44,6 +54,7 @@ class TestGrade{
 };
 
 int main(){
+    // calls all the files
     ifstream inFS1;
     ifstream inFS2;
     ofstream outFS;
@@ -56,7 +67,7 @@ int main(){
     int i = 0;
     int j;
     int k;
-    
+    // class call
     TestGrade finalGrade;
     
     cout << "Your test answers are being loaded up" << endl << endl;
@@ -76,7 +87,7 @@ int main(){
     }
     
     cout << "Recording answers to grade book" << endl << endl;
-    
+    // Loads grades to seperate file
     outFS.open("grade.txt");
     if(!outFS.is_open()){
         cout << "Missing grade.txt file" << endl;
@@ -107,7 +118,7 @@ int main(){
     }
     
     cout << endl << "Scoring and recording is done" << endl;
-    
+    // closes the files
     inFS1.close();
     inFS2.close();
     outFS.close();
