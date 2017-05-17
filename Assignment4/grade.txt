@@ -1,0 +1,127 @@
+Student Name: Christian Smith
+
+# 0 is wrong
+# 1 is wrong
+# 2 is wrong
+# 3 is wrong
+# 5 is wrong
+# 6 is wrong
+# 7 is wrong
+# 9 is wrong
+# 10 is wrong
+# 11 is wrong
+# 12 is wrong
+# 13 is wrong
+# 16 is wrong
+# 17 is wrong
+# 18 is wrong
+# 19 is wrong
+# 20 is wrong
+
+Your score out of 21 is: 1
+
+Student Name: Paxton Jones
+
+# 0 is wrong
+# 1 is wrong
+# 2 is wrong
+# 4 is wrong
+# 5 is wrong
+# 6 is wrong
+# 8 is wrong
+# 9 is wrong
+# 10 is wrong
+# 12 is wrong
+# 13 is wrong
+# 14 is wrong
+# 16 is wrong
+# 19 is wrong
+# 20 is wrong
+
+Your score out of 21 is: 3
+
+Student Name: Abby Sciuto
+
+# 0 is wrong
+# 1 is wrong
+# 2 is wrong
+# 3 is wrong
+# 4 is wrong
+# 6 is wrong
+# 7 is wrong
+# 8 is wrong
+# 9 is wrong
+# 11 is wrong
+# 12 is wrong
+# 15 is wrong
+# 19 is wrong
+# 20 is wrong
+
+Your score out of 21 is: 5
+
+Student Name: Audrey Smithson
+
+# 0 is wrong
+# 2 is wrong
+# 3 is wrong
+# 4 is wrong
+# 5 is wrong
+# 6 is wrong
+# 7 is wrong
+# 8 is wrong
+# 9 is wrong
+# 11 is wrong
+# 12 is wrong
+# 13 is wrong
+# 14 is wrong
+# 15 is wrong
+# 16 is wrong
+# 17 is wrong
+# 18 is wrong
+# 19 is wrong
+# 20 is wrong
+
+Your score out of 21 is: 0
+
+Student Name: Katie Holmes
+
+# 0 is wrong
+# 1 is wrong
+# 2 is wrong
+# 3 is wrong
+# 4 is wrong
+# 5 is wrong
+# 6 is wrong
+# 7 is wrong
+# 8 is wrong
+# 9 is wrong
+# 13 is wrong
+# 14 is wrong
+# 16 is wrong
+# 17 is wrong
+# 18 is wrong
+# 19 is wrong
+
+Your score out of 21 is: 2
+
+Student Name: Carrie Grant
+
+# 0 is wrong
+# 1 is wrong
+# 2 is wrong
+# 5 is wrong
+# 6 is wrong
+# 7 is wrong
+# 10 is wrong
+# 11 is wrong
+# 15 is wrong
+# 16 is wrong
+# 17 is wrong
+
+Your score out of 21 is: 8
+
+Student Name: Bobby Fischer
+
+
+Your score out of 21 is: 21
+
