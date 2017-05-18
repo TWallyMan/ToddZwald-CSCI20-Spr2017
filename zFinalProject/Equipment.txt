@@ -1,0 +1,13 @@
+Sword: 99
+Axe: 99
+Dagger: 99
+Knife: 99
+Bow: 99
+Arrow: 9999
+Staff: 99
+Magic Book: 99
+Cloth Armor: 99
+Leather Armor: 99
+Metal Armor: 99
+Shield: 99
+Health Potions: 999

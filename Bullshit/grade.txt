@@ -1,0 +1,117 @@
+
+Student Name: Christian Smith
+
+You got #1 incorrect. (-1.25)
+You got #2 incorrect. (-1.25)
+You got #3 incorrect. (-1.25)
+You got #4 incorrect. (-1.25)
+You got #6 incorrect. (-1.25)
+You got #7 incorrect. (-1.25)
+You got #8 incorrect. (-1.25)
+You got #10 incorrect. (-1.25)
+You got #11 incorrect. (-1.25)
+You got #12 incorrect. (-1.25)
+You got #13 incorrect. (-1.25)
+You got #14 incorrect. (-1.25)
+You got #17 incorrect. (-1.25)
+You got #18 incorrect. (-1.25)
+
+Total Score out of 21: 5.25
+
+
+Student Name: Paxton Jones
+
+You got #1 incorrect. (-1.25)
+You got #2 incorrect. (-1.25)
+You got #3 incorrect. (-1.25)
+You got #5 incorrect. (-1.25)
+You got #6 incorrect. (-1.25)
+You got #7 incorrect. (-1.25)
+You got #9 incorrect. (-1.25)
+You got #10 incorrect. (-1.25)
+You got #11 incorrect. (-1.25)
+You got #13 incorrect. (-1.25)
+You got #14 incorrect. (-1.25)
+You got #15 incorrect. (-1.25)
+You got #17 incorrect. (-1.25)
+
+Total Score out of 21: 5.75
+
+
+Student Name: Abby Sciuto
+
+You got #1 incorrect. (-1.25)
+You got #2 incorrect. (-1.25)
+You got #3 incorrect. (-1.25)
+You got #4 incorrect. (-1.25)
+You got #5 incorrect. (-1.25)
+You got #7 incorrect. (-1.25)
+You got #8 incorrect. (-1.25)
+You got #9 incorrect. (-1.25)
+You got #10 incorrect. (-1.25)
+You got #12 incorrect. (-1.25)
+You got #13 incorrect. (-1.25)
+You got #16 incorrect. (-1.25)
+
+Total Score out of 21: 7
+
+
+Student Name: Audrey Smithson
+
+You got #1 incorrect. (-1.25)
+You got #2 incorrect. (-1.25)
+You got #3 incorrect. (-1.25)
+You got #4 incorrect. (-1.25)
+You got #5 incorrect. (-1.25)
+You got #6 incorrect. (-1.25)
+You got #7 incorrect. (-1.25)
+You got #8 incorrect. (-1.25)
+You got #9 incorrect. (-1.25)
+You got #10 incorrect. (-1.25)
+You got #12 incorrect. (-1.25)
+You got #13 incorrect. (-1.25)
+You got #14 incorrect. (-1.25)
+You got #15 incorrect. (-1.25)
+You got #16 incorrect. (-1.25)
+You got #17 incorrect. (-1.25)
+You got #18 incorrect. (-1.25)
+
+Total Score out of 21: 1
+
+
+Student Name: Katie Holmes
+
+You got #1 incorrect. (-1.25)
+You got #2 incorrect. (-1.25)
+You got #3 incorrect. (-1.25)
+You got #4 incorrect. (-1.25)
+You got #5 incorrect. (-1.25)
+You got #6 incorrect. (-1.25)
+You got #7 incorrect. (-1.25)
+You got #8 incorrect. (-1.25)
+You got #9 incorrect. (-1.25)
+You got #10 incorrect. (-1.25)
+You got #14 incorrect. (-1.25)
+You got #15 incorrect. (-1.25)
+You got #17 incorrect. (-1.25)
+You got #18 incorrect. (-1.25)
+
+Total Score out of 21: 5
+
+
+Student Name: Carrie Grant
+
+You got #1 incorrect. (-1.25)
+You got #2 incorrect. (-1.25)
+You got #3 incorrect. (-1.25)
+You got #6 incorrect. (-1.25)
+You got #7 incorrect. (-1.25)
+You got #8 incorrect. (-1.25)
+You got #11 incorrect. (-1.25)
+You got #12 incorrect. (-1.25)
+You got #16 incorrect. (-1.25)
+You got #17 incorrect. (-1.25)
+You got #18 incorrect. (-1.25)
+
+Total Score out of 21: 8
+
