@@ -5,9 +5,9 @@ Knife: 99
 Bow: 99
 Arrow: 9999
 Staff: 99
-Magic Book: 99
-Cloth Armor: 99
-Leather Armor: 99
-Metal Armor: 99
+Magic_Book: 99
+Cloth_Armor: 99
+Leather_Armor: 99
+Metal_Armor: 99
 Shield: 99
-Health Potions: 999
+Health_Potions: 999

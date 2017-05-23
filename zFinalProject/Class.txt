@@ -1,3 +1,1 @@
-Fighter
-Wizard
-Archer
+Fighter Wizard Archer

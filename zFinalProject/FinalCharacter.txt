@@ -1,0 +1,21 @@
+human
+fighter
+Strength: 18
+Constitution: 16
+Dexterity: 16
+Charisma: 14
+Inteligence: 12
+Wisdom: 10
+1. Sword: 99
+2. Axe: 99
+3. Dagger: 99
+4. Knife: 99
+5. Bow: 99
+6. Arrow: 9999
+7. Staff: 99
+8. Magic_Book: 99
+9. Cloth_Armor: 99
+10. Leather_Armor: 99
+11. Metal_Armor: 99
+12. Shield: 99
+13. Health_Potions: 999
